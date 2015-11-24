@@ -1,0 +1,39 @@
+.rectangle {
+    border: 1px solid black;
+    position: absolute;
+    max-width: 10000px;
+}
+
+.rectangle.active{
+	background-color: yellow;
+	opacity: 0.3;
+}
+
+.row-center{
+	margin-left: 20%;
+}
+
+canvas {
+	border: 1px solid gray;
+	margin-left: 25%;
+}
+
+.canvas-of-origin{
+	display: inline;
+}
+
+.rectangle {
+	max-height: 750px;
+}
+
+.canvas-bottom-control{
+  margin-left: 25%;
+  display: inline-block;
+}
+.canvas-bottom-control .full-button{
+  width: 100%;
+}
+
+.canvas-of-result{
+	margin-top: 20px;
+}
